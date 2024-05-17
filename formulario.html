@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>NavShot</h2>
+    <form action="/submit" method="post">
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" name="nome"> <br>
+
+    <label>Gênero:</label> 
+    <br>
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">Masculino</label><br>
+    <input type="radio" id="feminino" name="genero" value="feminino">
+    <label for="feminino">Feminino</label><br>
+    <input type="radio" id="outro" name="genero" value="outro">
+    <label for="outro">Outro</label><br></br>
+
+    <label>Interesses:</label> <br>
+    <input type="checkbox" id="esportes" name="interersses" value="esportes">
+    <label for="esportes">Eportes</label><br>
+    <input type="checkbox" id="musica" name="interersses" value="musica">
+    <label for="musica">Música</label><br>
+    <input type="checkbox" id="tecnologia" name="interersses" value="tecnologia">
+    <label for="tecnologia">Tecnologia</label><br></br>
+
+    <label for="pais">País</label><br>
+    <select id="pais" name="pais>
+        <option value="brasil">Brasil</option>
+        <option value="portugal">Portugal</option>
+        <option value="eua">Estados Unidos</option>
+        <option value="canada">Canadá</option>
+    </select><br></br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+
+</form>
+</body>
+</html>
